@@ -1,8 +1,11 @@
 package cuentas;
 /**
+ * proyecto sobre una cuenta del banco
  * @author m_fer
  */
-
+/**
+ * Clase con sus atributos
+ */
 public class CCuenta {
 
 
@@ -10,11 +13,19 @@ public class CCuenta {
     private String cuenta;
     private double saldo;
     private double tipoInterés;
-
+/**
+ * metodo constructor sin parametros
+ */
     public CCuenta()
     {
     }
-
+/**
+ * metodo constructor con sus parametros
+ * @param nom
+ * @param cue
+ * @param sal
+ * @param tipo
+ */
     public CCuenta(String nom, String cue, double sal, double tipo)
     {
         nombre =nom;
